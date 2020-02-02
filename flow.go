@@ -8,14 +8,14 @@ func (f *JoinFlow) NewContainer() {
 
 }
 
-func (f *JoinFlow) To() {
+func (f *JoinFlow) To(in interface{}) {
 
 }
 
-func (f *JoinFlow) Join() {
+func (f *JoinFlow) Join(in interface{}) {
 
 }
 
-func (f *JoinFlow) Drop() {
+func (f *JoinFlow) Drop(drop string) {
 
 }
